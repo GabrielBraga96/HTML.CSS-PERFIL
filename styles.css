@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(./img/background.jpg);
+    position: fixed;
+    opacity: .5;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 100%;
+}
+
+h1 {
+    font-family: "Indie Flower", serif;
+    font-weight: 750;
+    font-style: normal;
+    letter-spacing: 0.3;
+    color: #363636;
+    font-size: 100px;
+    margin-left: 600px;
+    opacity: .9;
+}
+
+h2 {
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #696969;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 70px;
+    opacity: .9;
+}
+
+h3 {
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#050505;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: .9;
+}
+
+p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:black;
+    font-size: 22px;
+    text-align: center;
+    opacity: .9;
+}
+
+figure {
+    display: inline-block;
+}
+
+#eu-cafe {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 70px;
+    border-style:ridge;
+    border-color: blue;
+    opacity: .6;
+}
+
+#eu-carro {
+    width: 700px;
+    margin-left: 470px;
+    border-style:ridge;
+    border-color: blue;
+    opacity: .6;
+}
+
+h4 {
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#050505;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: .9;
+    margin-top: 60px;
+    margin-left: 900px;
+}
+
+li {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 25px;
+    margin-left: 30px;
+    opacity: .9;
+    margin-top: 25px;
+}
+
+aside {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#coffee {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.emoji {
+    word-spacing: 40px;
+}
+
+#torrado {
+    opacity: .7;
+    width:410px;
+    margin-bottom: 80px;
+} 
+
+#torrando {
+    opacity: .7;
+    width:410px;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: inline-block;
+    margin-left: 57px;
+    margin-top: 35px;
+}
+
+#salmo {
+    font-family: "Arsenal SC", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+    font-size: 12px;
+    opacity: .9;
+    margin-left: 245px;
+}
