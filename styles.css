@@ -146,49 +146,52 @@ footer {
 @media screen and (max-width: 425px) {
 
     h1 {
-        font-weight: 100;
-        font-size: 20px;
-        margin-left: 70px;
+        font-weight: 150;
+        font-size: 30px;
+        margin-left: 100px;
     }
 
     main {
-        width: 260px;
+        width: 320px;
+        margin-left: 50px;
     }
     
     h2 {
-        font-weight: 100;
-        font-size: 20px;
+        font-weight: 150;
+        font-size: 30px;
         margin-top: 20px;
         margin-bottom: 8px;
         margin-left: 4px;
     }
     
     h3{
-        font-weight: 100;
-        font-size: 30px;
+        font-weight: 80;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     
     p {
         font-weight: 100;
         font-size: 6px;
-        text-align: left;
+        text-align: center;
     }
 
     figure {
-        display: block;
+        display: inline-block;
     }
 
     #eu-cafe {
-        width: 200px;
+        width: 190px;
         margin-top: 10px;
-        margin-left: 40px;
+        margin-left: 10px;
+        display: inline-block;
     }
     
     #eu-carro {
-        width: 200px;
-        margin-left: 40px;
+        width: 190px;
+        margin-left: 10px;
         margin-top: 8px;
+        display: inline-block;
     }
 
     h4 {
@@ -196,7 +199,7 @@ footer {
         font-size: 20px;
         margin-bottom: 5px;
         margin-top: 5px;
-        margin-left: 110px;
+        margin-left: 180px;
         text-align: left;
     }
 
@@ -215,7 +218,8 @@ footer {
 
     #coffee {
         margin-right: 2px;
-        display: block;
+        display: inline-block;
+        margin-top: 10px;
     }
 
     .emoji {
@@ -223,17 +227,17 @@ footer {
     }
     
     #torrando {
-        width:50px;
-        height: 100px;
-        margin-bottom: 2px;
-        display: block;
+        width:170px;
+        height: 300px;
+        margin-left: 35px;
+        display: inline-block;
     } 
 
     #torrado {
-        width:50px;
-        height:100px;
-        margin-bottom: 2px;
-        display: block;
+        width:170px;
+        height:300px;
+        margin-left: 10px;
+        display: inline-block;
     } 
 
     footer {
@@ -243,12 +247,9 @@ footer {
 
     #salmo {
         font-weight: 100;
-        font-size: 1px;
-        margin-left: 1px;
-    }
-
-    main {
-        margin-left: 10px;
+        font-size: 4px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 }
