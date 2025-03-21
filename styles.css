@@ -143,6 +143,97 @@ footer {
     margin-left: 245px;
 }
 
+@media screen and (max-width: 1690px) {
+    h1 {
+        font-weight: 200;
+        font-size: 60px;
+        margin-left: 600px;
+    }
+
+    main {
+        width: 1500px;
+        margin-left: 70px;
+    }
+
+    h2 {
+        font-weight: 200;
+        font-size: 60px ;
+        margin-top: 22px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    h3{
+        font-weight: 200;
+        font-size: 40px;
+        margin-bottom: 13px;
+    }
+
+    p {
+        font-weight: 100;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    #eu-cafe {
+        width: 500px;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+
+    #eu-carro {
+        width: 500px;
+        margin-left: 440px;
+        margin-top: 30px;
+    }
+
+    aside {
+        margin-left: 2px;
+    }
+
+    h4 {
+        font-weight: 200;
+        font-size: 60px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 735px;
+        text-align: left;
+    }
+
+    li {
+        font-weight: 200;
+        font-size: 22px;
+        margin-top: 12px;
+        text-align:left;
+    }
+
+    #coffee {
+        margin-bottom: 1px;
+        margin-left: 120px;
+    }
+
+    .emoji {
+        word-spacing: 20px;
+    }
+
+    #torrado {
+        width:220px;
+        margin-bottom: 1px;
+    } 
+    
+    #torrando {
+        width:220px;
+        margin-bottom: 1px;
+        margin-right: 18px;
+    }
+
+    footer {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
+}
+
 @media screen and (max-width: 500px) {
 
     h1 {
@@ -176,22 +267,16 @@ footer {
         text-align: center;
     }
 
-    figure {
-        display: inline-block;
-    }
-
     #eu-cafe {
         width: 190px;
         margin-top: 10px;
         margin-left: 10px;
-        display: inline-block;
     }
     
     #eu-carro {
         width: 190px;
         margin-left: 10px;
         margin-top: 8px;
-        display: inline-block;
     }
 
     h4 {
@@ -211,15 +296,13 @@ footer {
     }
 
     aside {
-        display: block;
         margin-left: 2px;
     }
 
 
     #coffee {
-        margin-right: 2px;
-        display: inline-block;
-        margin-top: 10px;
+        margin-bottom: 1px;
+        margin-left: 1px;
     }
 
     .emoji {
@@ -227,17 +310,17 @@ footer {
     }
     
     #torrando {
-        width:170px;
-        height: 300px;
-        margin-left: 35px;
-        display: inline-block;
+        width: 60px;
+        height: 120px;
+        margin-left: 10px;
+        margin-bottom: 13px;
     } 
 
     #torrado {
-        width:170px;
-        height:300px;
-        margin-left: 10px;
-        display: inline-block;
+        width: 60px;
+        height: 120px;
+        margin-left: 5px;
+        margin-bottom: 13px;
     } 
 
     footer {
@@ -254,6 +337,8 @@ footer {
     }
 
 }
+
+
 
 @media screen and (max-width: 418px) {
     h1 {
