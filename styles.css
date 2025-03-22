@@ -234,6 +234,253 @@ footer {
 
 }
 
+@media screen and (max-width: 1570px) {
+    
+    h1 {
+        font-size: 50px;
+        margin-left: 470px;
+    }
+
+    main {
+        width: 1200px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        font-size: 50px ;
+        margin-top: 19px;
+        margin-bottom: 7px;
+        margin-left: 4px;
+    }
+
+    h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    #eu-cafe {
+        width: 380px;
+        margin-top: 22px;
+        margin-left: 65px;
+    }
+
+    #eu-carro {
+        width: 380px;
+        margin-left: 390px;
+        margin-top: 22px;
+    }
+
+    h4 {
+        font-size: 50px;
+        margin-left: 590px;
+    }
+    
+    li {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    #coffee {
+        margin-left: 90px;
+        margin-bottom: 1px;
+    }
+
+    #torrado {
+        width:160px;
+        height:400px;
+    } 
+
+    #torrando {
+        width:160px;
+        margin-right: 13px;
+        height:400px;
+    }
+
+}
+
+@media screen and (max-width: 1240px) {
+    h1 {
+        font-size: 43px;
+        margin-left: 380px;
+    }
+
+    main {
+        width: 1100px;
+        margin-left: 5px;
+    }
+
+    h2 {
+        font-size: 45px ;
+        margin-top: 16px;
+        margin-bottom: 5px;
+        margin-left: 3px;
+    }
+
+    h3{
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    #eu-cafe {
+        width: 280px;
+        margin-top: 22px;
+        margin-left: 120px;
+    }
+
+    #eu-carro {
+        width: 280px;
+        margin-left: 280px;
+        margin-top: 22px;
+    }
+
+    h4 {
+        font-size: 37px;
+        margin-left: 500px;
+    }
+
+    li {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    #coffee {
+        margin-left: 30px;
+    }
+
+    #torrado {
+        width:130px;
+        height:300px;
+    } 
+
+    #torrando {
+        width:130px;
+        height:300px;
+    } 
+
+}
+
+@media screen and (max-width: 990px) {
+
+    h1 {
+        font-size: 40px;
+        margin-left: 240px;
+    }
+
+    main {
+        width: 780px;
+        margin-left: 30px;
+    }
+
+    h2 {
+        margin-top: 13px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #eu-cafe {
+        width: 200px;
+        margin-left: 100px;
+    }
+
+    #eu-carro {
+        width: 200px;
+        margin-left: 200px;
+    }
+
+    h4 {
+        margin-left: 350px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    #coffee {
+        margin-left: 10px;
+    }
+
+    #torrado {
+        width:100px;
+        height:250px;
+    } 
+
+    #torrando {
+        width:100px;
+        height:250px;
+    } 
+
+    footer {
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+
+    #salmo{
+        font-weight: 200;
+        font-size: 8px;
+        margin-left: 3px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+    h1 {
+        font-size: 30px;
+        margin-left: 155px;
+    }
+
+    main {
+        width: 540px;
+        margin-left: 5px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    #eu-cafe {
+        width: 150px;
+        margin-left: 80px;
+    }
+
+    #eu-carro {
+        width: 150px;
+        margin-left: 80px;
+    }
+
+    h4 {
+        margin-left: 226px;
+        font-size: 30px;
+
+    }
+
+    aside{
+        display: block;
+    }
+
+    #coffee {
+        margin-left: 10px;
+        display: block;
+    }
+
+    #salmo{
+        font-weight: 100;
+        font-size: 6px;
+        margin-left: 3px;
+    }
+
+}
+
 @media screen and (max-width: 500px) {
 
     h1 {
