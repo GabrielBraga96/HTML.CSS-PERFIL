@@ -369,6 +369,20 @@ footer {
 
 @media screen and (max-width: 990px) {
 
+    section {
+        display: none;
+    }
+
+    .fundo {
+        background-image: url(./img/IMG_20201010_103847_102.jpg);
+        position: fixed;
+        opacity: .5;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: 100%;
+    }
+
     h1 {
         font-size: 40px;
         margin-left: 240px;
