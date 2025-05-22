@@ -5,4 +5,4 @@
 <br>
 <h3>Utilizado inteligencias git html css</h3>
 <br>
-<h4>É meu blog pessoal em que tenho prazer em compartilhar, pois mosra minha personalidade e apenas coisas que eu gosto e admiro.</h4>
+<h4>É meu blog pessoal em que tenho prazer em compartilhar, pois mostra minha personalidade e apenas coisas que eu gosto e admiro.</h4>
