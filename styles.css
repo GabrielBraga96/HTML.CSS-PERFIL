@@ -5,7 +5,7 @@
 }
 
 section {
-    background-image: url(./img/background.jpg);
+    background-image: url(./img/por-do-sol.jpg);
     position: fixed;
     opacity: .5;
     width: 100vw;
@@ -47,7 +47,7 @@ h3 {
     opacity: .9;
 }
 
-p {
+main p {
     font-family: "Playfair Display SC", serif;
     font-weight: 600;
     font-style: normal;
@@ -88,7 +88,6 @@ h4 {
     margin-bottom: 40px;
     opacity: .9;
     margin-top: 60px;
-    margin-left: 900px;
 }
 
 li {
@@ -118,14 +117,159 @@ aside {
 
 #torrado {
     opacity: .7;
-    width:300px;
-    margin-bottom: 80px;
+    width:400px;
+    margin-bottom: 300px;
 } 
 
 #torrando {
     opacity: .7;
-    width:300px;
+    width:400px;
+    margin-bottom: 300px;
+    margin-left: 500px;
+}
+
+h5 {
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#050505;
+    font-size: 70px;
+    text-align: center;
+    opacity: .9;
+    margin-top: 30px;
+}
+
+.cultura{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tipo-musica {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titulo-musica {
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #696969;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    opacity: .9;
+}
+
+ol {
+    list-style: none;
+    width:400px;
+    height: 400px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 70px;
+}
+
+.paragrafos {
+    height: 800px;
+    width: 1000px;
+    padding-top:100px;
+}
+
+.tipo-musica p {
+    text-align:start;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:black;
+    font-size: 22px;
+    opacity: .9;
+}
+
+.paragrafos .titulo-enredo {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 25px;
     margin-bottom: 80px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.tipo-musica figure {
+    width: 400px;
+}
+
+#eu-rio {
+    width: 400px;
+    opacity: .8;
+    margin-top: 50px;
+    border-style:ridge;
+    border-color: blue;
+    text-align: none;
+    transform: translateX(-30px);
+}
+
+.pessoal {
+    display:flex;
+}
+
+.texto-pessoal {
+    flex-direction: column;
+    margin: 80px 0px 0px 150px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 15px;
+    opacity: .9;
+    width: 820px;
+}
+
+.titulo-pessoal {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.info {
+    text-align: center;
+}
+
+#eu-oculos {
+    width: 350px;
+    opacity: .7;
+    margin-left: 20px;
+    border-style:ridge;
+    border-color: blue;
+    text-align: none;
+}
+
+h6 {
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#050505;
+    font-size: 70px;
+    text-align: center;
+    opacity: .9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#video-rio {
+    width:500px;
+    opacity: .6;
+    margin-top: 85px;
 }
 
 footer {
