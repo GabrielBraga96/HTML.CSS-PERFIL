@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <section></section>
+    <section class="background"></section>
 
     <div class="fundo"></div>
 
@@ -74,16 +74,16 @@
         <p>Agora que surgiu a minha irmãzinha, estou bem mais sossegado e contente, pois tenho com quem contar.</p>
     </main>
 
-    <figure>
+    <figcaption>
         <img src="./img/foto1.jpg" alt="foto-eu-café" id="eu-cafe">
-    </figure>
+    </figcaption>
 
-    <figure>
+    <figcaption>
         <img src="./img/eu-carro.webp" alt="foto-eu-carro" id="eu-carro">
-    </figure>
+    </figcaption>
 
     <h4>Hobbies</h4>
-    <aside>
+    <aside class="hobbies">
         <ul>
             <li>Pesca <class="emoji">🎣</class></li>
             <li>Espiritualidade <class="emoji">⛪</class></li>
@@ -97,44 +97,44 @@
             <li>Cozinhar <class="emoji">♨️</class></li>
             <li>Estudos de Programação <class="emoji">📎</class></li>
         </ul>
+        
+        <figcaption id="coffee">
+            <video 
+                src="./img/VID_20250213_084050.mp4"     
+                controls
+                controlsList="nodownload"
+                autoplay loop muted
+                muted
+                height="500"
+                id="torrando">
+            </video>
+            <video 
+                src="./img/VID_20250213_095014.mp4"    
+                controls
+                controlsList="nodownload"
+                autoplay loop muted
+                muted
+                height="500"
+                id="torrado">
+            </video>
+        </figcaption>
     </aside>
 
-    <div id="coffee">
-        <video 
-            src="./img/VID_20250213_084050.mp4"     
-            controls
-            controlsList="nodownload"
-            autoplay loop muted
-            muted
-            height="500"
-            id="torrando">
-        </video>
-        <video 
-            src="./img/VID_20250213_095014.mp4"    
-            controls
-            controlsList="nodownload"
-            autoplay loop muted
-            muted
-            height="500"
-            id="torrado">
-        </video>
-    </div>
-
-    <div class="cultura">
+    <section class="cultura">
         <h5>Cultura</h5>
         <p class="titulo-musica">Estilo Musical</p>
-        <div class="tipo-musica">
-            <figure>
-                <img src="./img/./foto-rio.jpg" alt="foto-no-rio" id="eu-rio">
-            </figure>
-            <ol>
-                <li><input type="checkbox" checked>Rock n' Roll</li>
-                <li><input type="checkbox" checked>Rap</li>
-                <li><input type="checkbox" checked>Módão Sertanejo Raiz</li>
-                <li><input type="checkbox" checked>Reggae</li>
-                <li><input type="checkbox" checked>Sad</li>
-            </ol>
-        <div class="paragrafos">
+        <aside class="tipo-musica">
+            <figcaption>
+                <img src="./img/foto-rio.jpg" alt="foto-no-rio" id="eu-rio">
+            </figcaption>
+                <ol>
+                    <li><input type="checkbox" id="rock" checked><label for="rock">Rock n' Roll</label></li>
+                    <li><input type="checkbox" id="rap" checked><label for="rap">Rap</label></li>
+                    <li><input type="checkbox" id="modao"checked><label for="modao">Módão Sertanejo Raiz</label></li>
+                    <li><input type="checkbox" id="reggae"checked><label for="reggae">Reggae</label></li>
+                    <li><input type="checkbox" id="sad"checked><label for="sad">Sad</label></li>
+                </ol>
+        <article class="paragrafos">
             <p class="titulo-enredo">Tem um enredo para cada estilo musical em que engloba uma história</p>
             <br>
             <p>Sad é onde tiro minhas inspirações para letras de músicas, sim, também escrevo músicas e poesias. E em meus momentos tranquilos para reflexão é o estilo que escolho para ouvir e refletir</p>
@@ -146,17 +146,17 @@
             <p>Rap ouço em galera, um jeito de espairecer e falar a mesma linguagem em que estamos abrangendo</p>
             <br>
             <p>Rock para mim é universal, além de ser minhas músicas preferidas, me transmite paz, felicidade e alegria</p>
-        </div>
-        </div>
-    </div>
+        </article>
+        </aside>
+    </section>
 
     <h6>Pessoal</h6>
-    <div class="pessoal">
+    <section class="pessoal">
         
         <figure>
             <img src="./img/foto-oculos.jpg" alt="foto-de-oculos" id="eu-oculos">
         </figure>
-        <div class="texto-pessoal">
+        <article class="texto-pessoal">
             <p class="titulo-pessoal">Sessão dedicada a especificidades sobre mim</p>
             <p class="info">Signo: Virgem | Idade: 28 anos | Altura: 1,78 <br>
                 ☀️ Sol em Virgem | 🌙 Lua em Peixes | ⬆️ Ascendente em Gêmeos | 🧠 Mercúrio em Virgem <br> 💘 Vênus em Libra | 🔥 Marte em Leão</p>
@@ -170,8 +170,8 @@
             <br>
             <p>Desde que nasci, frequento a Igreja Católica Apostólica Romana, fui batizado e crismado, comungo e me confesso regularmente, mas os estudos da Bíblia para aplicar no seu pessoal são essenciais para crescer como pessoa e alimentar minha personalidade.</p>
             <p>Esses estudos me ajudam a reformular a base dos meus pensamentos e minha mentalidade, é uma forma de eu conseguir viver um dia após o outro, e evitar que o mundo me consuma.</p>
-        </div>
-        <div id="rio">
+        </article>
+        <figcaption id="rio">
             <video
             src="./img/video-rio-mp4.mp4"
             controls
@@ -181,8 +181,8 @@
             height="500"
             id="video-rio">
             </video>
-        </div>
-    </div>
+        </figcaption>
+    </section>
 
     <footer>
         <p id="salmo">Mil cairão ao teu lado, e dez mil à tua direita, mas não chegará a ti. Somente com os teus olhos contemplarás, e verás a recompensa dos ímpios. Porque tu, ó Senhor, és o meu refúgio. No Altíssimo fizeste a tua habitação.</p>
