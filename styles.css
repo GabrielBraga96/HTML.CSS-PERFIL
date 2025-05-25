@@ -7,7 +7,7 @@
 .background {
     background-image: url(./img/por-do-sol.jpg);
     position: fixed;
-    opacity: .5;
+    opacity: .4;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -16,12 +16,12 @@
 
 h1 {
     font-family: "Indie Flower", serif;
-    font-weight: 750;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: 0.3;
     color: #363636;
     font-size: 100px;
-    margin-left: 560px;
+    text-align: center;
     opacity: .9;
 }
 
@@ -57,8 +57,9 @@ main p {
     opacity: .9;
 }
 
-figcaption {
-    display: inline-block;
+.fotos-main {
+    display: flex;
+    justify-content: space-between;
 }
 
 #eu-cafe {
@@ -72,7 +73,8 @@ figcaption {
 
 #eu-carro {
     width: 650px;
-    margin-left: 470px;
+    margin-top: 150px;
+    margin-right: 70px;
     border-style:ridge;
     border-color: blue;
     opacity: .6;
@@ -85,12 +87,12 @@ h4 {
     color:#050505;
     font-size: 70px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     opacity: .9;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
-li {
+.hobbies li{
     font-family: "Permanent Marker", serif;
     font-weight: 400;
     font-style: normal;
@@ -101,31 +103,30 @@ li {
     margin-top: 25px;
 }
 
-ul {
-    width: 350px;
+.hobbies ul{
+    width: 430px;
     height: 550px;
-    margin-left: 20px;
+    padding-left: 60px;
 }
 
 .hobbies {
     display: flex;
-    width: 100vw;
+    width: 97vw;
 }
 
 #coffee {
-    margin-left: 650px;
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
 }
 
 #torrado {
     opacity: .7;
-    width:400px;
-    margin-top: 50px;
 } 
 
 #torrando {
     opacity: .7;
-    width:400px;
-    margin-top: 50px;
+    padding-right: 40px;
 }
 
 h5 {
@@ -146,10 +147,31 @@ h5 {
 
 .tipo-musica {
     display:flex;
-    justify-content:center;
+    text-align: left;
     align-items: center;
-    margin-top: 20px;
 }
+
+.tipo-musica ol {
+    opacity: .9;
+    margin-left: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 80px;
+}
+
+.tipo-musica li {
+    font-family: "Permanent Marker", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+}
+
 
 .titulo-musica {
     font-family: "Amatic SC", serif;
@@ -164,31 +186,15 @@ h5 {
 
 ol {
     list-style: none;
-    width:400px;
-    height: 400px;
-    text-align: left;
-}
-
-#rock {
-    margin-bottom: 70px;
-}
-
-#rap {
-    margin-bottom: 70px;
-}
-
-#modao {
-    margin-bottom: 70px;
-}
-
-#reggae {
-    margin-bottom: 70px;
 }
 
 .paragrafos {
-    height: 800px;
-    width: 1000px;
-    padding-top:100px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    width: 100%;
+    /* padding-top: 150px; */
 }
 
 .tipo-musica p {
@@ -197,7 +203,7 @@ ol {
     font-weight: 600;
     font-style: normal;
     color:black;
-    font-size: 22px;
+    font-size: 20px;
     opacity: .9;
 }
 
@@ -208,38 +214,42 @@ ol {
     color: black;
     font-size: 25px;
     margin-bottom: 80px;
-    text-align: center;
+    text-align: left;
     text-decoration:underline;
 }
 
-.tipo-musica figure {
-    width: 400px;
+.paragrafos p {
+    padding-left: 150px;
+    padding-right: 50px;
 }
 
 #eu-rio {
     width: 400px;
     opacity: .8;
-    margin-top: 50px;
     border-style:ridge;
     border-color: blue;
     text-align: none;
-    transform: translateX(-30px);
+    margin-left: 30px;
+    margin-top: 85px;
 }
 
 .pessoal {
     display:flex;
+    justify-content: space-between;
 }
 
 .texto-pessoal {
     flex-direction: column;
-    margin: 80px 0px 0px 150px;
+    margin-top: 60px;
     font-family: "Playfair Display SC", serif;
     font-weight: 400;
     font-style: normal;
     color:black;
     font-size: 15px;
     opacity: .9;
-    width: 820px;
+    width: 100%;
+    font-weight: bolder;
+    padding: 0 60px 0 60px;
 }
 
 .titulo-pessoal {
@@ -255,11 +265,13 @@ ol {
 
 .info {
     text-align: center;
+    padding-bottom: 50px;
+    font-weight: normal;
 }
 
 #eu-oculos {
     width: 350px;
-    opacity: .7;
+    opacity: .8;
     margin-left: 20px;
     border-style:ridge;
     border-color: blue;
@@ -274,18 +286,12 @@ h6 {
     font-size: 70px;
     text-align: center;
     opacity: .9;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#video-rio {
-    width:500px;
-    opacity: .6;
-    margin-top: 85px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 footer {
-    margin-left: 57px;
+    text-align: center;
     margin-top: 35px;
 }
 
@@ -296,23 +302,20 @@ footer {
     color: black;
     font-size: 12px;
     opacity: .9;
-    margin-left: 245px;
-}
-
-.checkbox-label {
-    display: flex;
-    align-items: center;
 }
 
 input[type="checkbox"] {
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
     border: 2px solid black;
     appearance: none;
     outline: none;
     cursor: default;
     pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 10px;
 }
 
@@ -322,36 +325,57 @@ input[type="checkbox"]:checked::after {
   color: black;
 }
 
+#rio {
+    /* display: flex; */
+    /* justify-content: right; */
+    /* width: 600px; */
+
+}
+
+#video-rio {
+    margin-right: 30px;
+    margin-top: 27px;
+    opacity: .6;
+    height: 650px;
+}
+
 @media screen and (max-width: 1690px) {
     h1 {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 60px;
-        margin-left: 600px;
     }
 
     main {
-        width: 1500px;
-        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 70px;
     }
 
     h2 {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 60px ;
         margin-top: 22px;
         margin-bottom: 10px;
-        margin-left: 5px;
+        text-align: center;
     }
 
     h3{
         font-weight: 200;
         font-size: 40px;
-        margin-bottom: 13px;
+        margin-bottom: 50px;
     }
 
-    p {
-        font-weight: 100;
-        font-size: 19px;
-        text-align: center;
+    main p {
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0 200px 0 200px;
+    }
+
+    .hobbies ul {
+        padding-left: 50px;
+        width:500px;
+        height: 100%;
     }
 
     #eu-cafe {
@@ -366,44 +390,78 @@ input[type="checkbox"]:checked::after {
         margin-top: 30px;
     }
 
-    aside {
-        margin-left: 2px;
-    }
-
     h4 {
         font-weight: 200;
         font-size: 60px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        margin-left: 735px;
-        text-align: left;
     }
 
-    li {
+    .hobbies li {
         font-weight: 200;
-        font-size: 22px;
-        margin-top: 12px;
+        font-size: 20px;
         text-align:left;
+        width: 500px
     }
 
     #coffee {
-        margin-bottom: 1px;
-        margin-left: 120px;
-    }
-
-    .emoji {
-        word-spacing: 20px;
+        margin: 0px;
+        padding: 50px 0 0 250px;
     }
 
     #torrado {
-        width:220px;
-        margin-bottom: 1px;
+        height:500px;
     } 
     
     #torrando {
-        width:220px;
-        margin-bottom: 1px;
+        height:500px;
         margin-right: 18px;
+    }
+
+    #eu-rio {
+        transform: none;
+    }
+
+    input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    }
+
+    .tipo-musica ol {
+        width: 280px;
+    }
+
+    .info {
+        padding-bottom: 20px;
+    }
+
+    .texto-pessoal {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .titulo-pessoal {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .texto-pessoal p {
+        padding: 0 60px 0 60px;
+    }
+
+    #eu-oculos {
+        width:300px;
+    }
+
+    #rio {
+        width:400px;
+        display: flex;
+        justify-content: right;
+    }
+
+    #video-rio {
+        height: 570px;
+        padding: 0px;
+        margin-top: 30px;
+        margin-right: 20px;
     }
 
     footer {
