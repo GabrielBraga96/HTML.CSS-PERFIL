@@ -194,7 +194,6 @@ ol {
     justify-content: right;
     flex-direction: column;
     width: 100%;
-    /* padding-top: 150px; */
 }
 
 .tipo-musica p {
@@ -261,6 +260,7 @@ ol {
     margin-bottom: 80px;
     text-align: center;
     text-decoration:underline;
+    justify-content:space-between;
 }
 
 .info {
@@ -325,13 +325,6 @@ input[type="checkbox"]:checked::after {
   color: black;
 }
 
-#rio {
-    /* display: flex; */
-    /* justify-content: right; */
-    /* width: 600px; */
-
-}
-
 #video-rio {
     margin-right: 30px;
     margin-top: 27px;
@@ -380,14 +373,10 @@ input[type="checkbox"]:checked::after {
 
     #eu-cafe {
         width: 500px;
-        margin-top: 30px;
-        margin-left: 80px;
     }
 
     #eu-carro {
         width: 500px;
-        margin-left: 440px;
-        margin-top: 30px;
     }
 
     h4 {
@@ -402,18 +391,12 @@ input[type="checkbox"]:checked::after {
         width: 500px
     }
 
-    #coffee {
-        margin: 0px;
-        padding: 50px 0 0 250px;
-    }
-
     #torrado {
         height:500px;
     } 
     
     #torrando {
         height:500px;
-        margin-right: 18px;
     }
 
     #eu-rio {
@@ -475,66 +458,124 @@ input[type="checkbox"]:checked::after {
     
     h1 {
         font-size: 50px;
-        margin-left: 470px;
+        margin-bottom: 30px;
     }
 
     main {
         width: 1200px;
-        margin-left: 60px;
     }
 
     h2 {
         font-size: 50px ;
         margin-top: 19px;
-        margin-bottom: 7px;
-        margin-left: 4px;
+        margin-bottom: 18px;
     }
 
     h3{
         font-size: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
 
-    p {
-        font-size: 17px;
+    main p {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0 120px 0 120px;
     }
 
     #eu-cafe {
         width: 380px;
-        margin-top: 22px;
-        margin-left: 65px;
     }
 
     #eu-carro {
         width: 380px;
-        margin-left: 390px;
-        margin-top: 22px;
     }
 
     h4 {
         font-size: 50px;
-        margin-left: 590px;
     }
     
-    li {
-        font-size: 19px;
-        margin-top: 10px;
-    }
-
-    #coffee {
-        margin-left: 90px;
-        margin-bottom: 1px;
+    .hobbies li {
+        font-size: 15px;
     }
 
     #torrado {
-        width:160px;
-        height:400px;
+        height: 300;
     } 
 
     #torrando {
-        width:160px;
-        margin-right: 13px;
-        height:400px;
+        height: 300;
+    }
+
+    h5 {
+        font-size: 50px;
+    }
+
+    .titulo-musica {
+        font-size: 48px;
+    }
+
+    #eu-rio {
+        width: 350px;
+    }
+
+    .tipo-musica ol {
+        width: 400px;
+    }
+
+    .tipo-musica li {
+        font-size: 15px;
+    }
+
+    .paragrafos .titulo-enredo {
+        font-size: 18px;
+        font-weight: 200;
+        margin-top: 80px;
+    }
+
+    .tipo-musica p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .paragrafos p {
+        padding-left: 50px;
+        padding-right: 40px;
+}
+
+    h6 {
+        font-size: 50px;
+        margin: 150px 0;
+    }
+
+    #eu-oculos {
+        width: 250px;
+    }
+
+    .texto-pessoal {
+        padding: 0;
+    }
+
+    .texto-pessoal p {
+        padding: 0 50px 0 50px;
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    .pessoal .titulo-pessoal{
+        font-weight: 200;
+        font-size: 20px;
+        margin-top:0px;
+        margin-bottom: 55px;
+    }
+
+    .texto-pessoal .info {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #video-rio {
+        height:500px;
+        margin-top: 22px;
     }
 
 }
@@ -542,7 +583,6 @@ input[type="checkbox"]:checked::after {
 @media screen and (max-width: 1240px) {
     h1 {
         font-size: 43px;
-        margin-left: 380px;
     }
 
     main {
