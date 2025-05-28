@@ -122,7 +122,7 @@ h4 {
 
 #torrado {
     opacity: .7;
-} 
+}
 
 #torrando {
     opacity: .7;
@@ -393,8 +393,8 @@ input[type="checkbox"]:checked::after {
 
     #torrado {
         height:500px;
-    } 
-    
+    }
+
     #torrando {
         height:500px;
     }
@@ -473,7 +473,7 @@ input[type="checkbox"]:checked::after {
     }
 
     main p {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
         padding: 0 120px 0 120px;
     }
@@ -489,14 +489,14 @@ input[type="checkbox"]:checked::after {
     h4 {
         font-size: 50px;
     }
-    
+
     .hobbies li {
         font-size: 15px;
     }
 
     #torrado {
         height: 300;
-    } 
+    }
 
     #torrando {
         height: 300;
@@ -576,42 +576,40 @@ input[type="checkbox"]:checked::after {
 
 }
 
+@media screen and (max-width: 1370px) {
+
+    main p {
+        font-size: 15px;
+    }
+
+}
+
 @media screen and (max-width: 1240px) {
     h1 {
         font-size: 43px;
-    }
-
-    main {
-        width: 1100px;
-        margin-left: 5px;
     }
 
     h2 {
         font-size: 45px ;
         margin-top: 16px;
         margin-bottom: 5px;
-        margin-left: 3px;
     }
 
     h3{
         font-size: 25px;
-        margin-bottom: 7px;
+        margin-bottom: 28px;
     }
 
-    p {
-        font-size: 11px;
+    main p {
+        font-size: 14px;
     }
 
     #eu-cafe {
-        width: 280px;
-        margin-top: 22px;
-        margin-left: 120px;
+        width: 300px;
     }
 
     #eu-carro {
-        width: 280px;
-        margin-left: 280px;
-        margin-top: 22px;
+        width: 300px;
     }
 
     h4 {
@@ -624,27 +622,93 @@ input[type="checkbox"]:checked::after {
         margin-top: 10px;
     }
 
-    #coffee {
-        margin-left: 30px;
+    #eu-cafe {
+        margin: 0;
+    }
+
+    #eu-carro {
+        margin: 0;
+    }
+
+    .fotos-main {
+        margin: 0 25px;
+    }
+
+    h4 {
+        margin: 0;
+        padding: 60px 0;
+    }
+
+    .hobbies li {
+        margin-top: 15px;
     }
 
     #torrado {
-        width:130px;
-        height:300px;
-    } 
+        height:400px;
+    }
 
     #torrando {
-        width:130px;
-        height:300px;
-    } 
+        height:400px;
+    }
+
+    h5 {
+        font-size: 40px;
+    }
+
+    .titulo-musica {
+        font-size: 40px;
+        margin-top: 18px;
+    }
+
+    #eu-rio {
+        width: 320px;
+    }
+
+    .tipo-musica li {
+        font-size: 14px;
+    }
+
+    .paragrafos p {
+        padding: 0px 20px 0 30px;
+
+    }
+
+    h6 {
+        font-size: 40px;
+        margin: 100px 0;
+    }
+
+    .pessoal {
+        flex-wrap: wrap;
+    }
+
+    figure {
+        flex: 50%;
+    }
+
+    #rio {
+        flex: 50%;
+    }
+
+    .texto-pessoal{
+        order: 3;
+        flex: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-bottom: 4px;
+        opacity: 0.9;
+    }
+
+    #salmo {
+        text-decoration: underline dashed 1px rgba(255, 215, 0, 1);
+    }
 
 }
 
 @media screen and (max-width: 990px) {
-
-    section {
-        display: none;
-    }
 
     .fundo {
         background-image: url(./img/IMG_20201010_103847_102.jpg);
@@ -658,53 +722,80 @@ input[type="checkbox"]:checked::after {
 
     h1 {
         font-size: 40px;
-        margin-left: 240px;
-    }
-
-    main {
-        width: 780px;
-        margin-left: 30px;
     }
 
     h2 {
         margin-top: 13px;
+        opacity: 1;
     }
 
-    p {
-        font-size: 10px;
+    main p {
+        font-size: 13px;
+        padding: 0 70px 0 70px;
+        
     }
 
-    #eu-cafe {
-        width: 200px;
-        margin-left: 100px;
+    #eu-cafe, #eu-carro {
+        width: 270px;
+        opacity: .7;
     }
 
-    #eu-carro {
-        width: 200px;
-        margin-left: 200px;
+    .hobbies ul {
+        padding-left: 13px;
+        width: 260px;
     }
 
-    h4 {
-        margin-left: 350px;
-    }
-
-    li {
-        font-size: 10px;
+    .hobbies li {
+        font-size: 13px;
     }
 
     #coffee {
-        margin-left: 10px;
+        padding-right: 13px;
     }
 
-    #torrado {
-        width:100px;
-        height:250px;
-    } 
+    #torrado, #torrando {
+        height: 380px;
+    }
 
-    #torrando {
-        width:100px;
-        height:250px;
-    } 
+    h5 {
+        margin-top: 100px;
+    }
+
+    .titulo-musica {
+        opacity: 1;
+    }
+
+    #eu-rio {
+        width: 240px;
+        margin-left: 25px;
+    }
+
+    input[type="checkbox"] {
+        width: 19px;
+        height: 19px;
+    }
+
+    .tipo-musica li{
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .tipo-musica {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tipo-musica figcaption {
+        flex: 50%;
+    }
+
+    .tipo-musica ol {
+        flex: 50%;
+    }
+
+    .paragrafos {
+        flex: 100%;
+    }
 
     footer {
         margin-left: 5px;
@@ -780,7 +871,7 @@ input[type="checkbox"]:checked::after {
         width: 320px;
         margin-left: 50px;
     }
-    
+
     h2 {
         font-weight: 150;
         font-size: 30px;
@@ -788,13 +879,13 @@ input[type="checkbox"]:checked::after {
         margin-bottom: 8px;
         margin-left: 4px;
     }
-    
+
     h3{
         font-weight: 80;
         font-size: 20px;
         margin-bottom: 10px;
     }
-    
+
     p {
         font-weight: 100;
         font-size: 6px;
@@ -806,7 +897,7 @@ input[type="checkbox"]:checked::after {
         margin-top: 10px;
         margin-left: 10px;
     }
-    
+
     #eu-carro {
         width: 190px;
         margin-left: 10px;
@@ -842,20 +933,20 @@ input[type="checkbox"]:checked::after {
     .emoji {
         word-spacing: 10px;
     }
-    
+
     #torrando {
         width: 60px;
         height: 120px;
         margin-left: 10px;
         margin-bottom: 13px;
-    } 
+    }
 
     #torrado {
         width: 60px;
         height: 120px;
         margin-left: 5px;
         margin-bottom: 13px;
-    } 
+    }
 
     footer {
         margin-left: 2px;
@@ -940,12 +1031,12 @@ input[type="checkbox"]:checked::after {
         width:120px;
         height: 200px;
         margin-left: 20px;
-    } 
+    }
 
     #torrado {
         width:120px;
         height:200px;
         margin-left: 5px;
-    } 
+    }
 
 }
