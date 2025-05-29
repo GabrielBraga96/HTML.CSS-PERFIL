@@ -711,6 +711,10 @@ footer {
 
 @media screen and (max-width: 990px) {
 
+    .background {
+        display: none;
+    }
+
     body::before {
     content: "";
     position: fixed;
@@ -1055,4 +1059,17 @@ footer {
         height: 300px;
     }
 
+}
+
+@media screen and (max-width: 394px) {
+
+    .tipo-musica ol {
+        margin-top: 50px;
+        gap: 30px;
+        padding-left: 50px;
+    }
+
+    .paragrafos .titulo-enredo {
+        margin-top: 40px;
+    }
 }
